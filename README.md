@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 
-- 🔭 I’m currently working on DiscordSRVUtils and AdvancedPlHide
+- 🔭 I’m currently working on Prebot
 - 🌱 I’m currently learning TypeScript and C++
 - 🤔 I’m looking for help with Big Projects
 - 📫 How to reach me: Discord BlueTree242#6225
