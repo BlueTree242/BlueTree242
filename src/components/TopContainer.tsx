@@ -1,6 +1,7 @@
+import { block } from "million/react";
 import tw from "twin.macro";
 
-export default function TopContainer() {
+const TopContainer = block(function (){
     return <>
         <div css={tw`md:h-screen flex max-md:mb-[5rem]`}>
             <div css={tw`md:m-auto md:flex block`}>
@@ -20,4 +21,6 @@ export default function TopContainer() {
             </div>
         </div>
     </>;
-}
+}) 
+
+export default TopContainer

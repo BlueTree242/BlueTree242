@@ -3,8 +3,10 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'path';
 import { ViteMinifyPlugin } from 'vite-plugin-minify'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
+import million from 'million/compiler';
 
 const plugins = [
+  million.vite(),
   react({
     babel: {
       plugins: ['babel-plugin-macros', ['babel-plugin-styled-components', { "displayName": false }]],
@@ -18,7 +20,7 @@ const plugins = [
         dest: ''
       }
     ]
-  })
+  }),
 ];
 // https://vitejs.dev/config/
 export default defineConfig({
