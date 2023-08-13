@@ -11,7 +11,7 @@ export default function TopContainer() {
                     <h1 css={tw`text-center text-blue-700 text-5xl`}>BlueTree242</h1>
                     <p css={tw`mt-5 text-lg text-center md:text-left`}>
                         Hello there! I am BlueTree242, I code programs as a hobby.
-                        I mostly make Spigot/Bungee/Velocity Plugins, you will not find much because most of them are private :)<br/><br/>
+                        I mostly make Minecraft/Discord related stuff.<br/><br/>
                         Some of my projects are open source and available on github! I know Java, JS, TS, React.JS, Node.js.
                         I don't know python because i don't really care about it.<br/><br/>
                         In this website you will find out about my projects and my activity!

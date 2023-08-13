@@ -26,7 +26,7 @@ export default function ProjectsContainer() {
                         <p>{project.description}</p>
                         {project.links && <div className="links">
                             {project.links.map(link => (
-                                <FontAwesomeIcon icon={link.icon} onClick={() => window.open(link.url)}></FontAwesomeIcon>
+                                <FontAwesomeIcon icon={link.icon} onClick={() => window.open(link.url)} css={tw`hover:opacity-25`}></FontAwesomeIcon>
                             ))}
                         </div>}
                     </ProjectContainer>
