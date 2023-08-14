@@ -20,7 +20,7 @@ export default function ProjectsContainer() {
     return (
         <>
             <h2 css={tw`text-center`} ref={projectsRef}>My Projects:</h2>
-            <div css={tw`lg:flex p-3 justify-between flex-wrap`}>
+            <div css={tw`lg:flex p-3 justify-between flex-wrap items-stretch`}>
                 {projects.map((project) => (
                     <ProjectContainer id={project.name} key={project.name.toLocaleLowerCase()}>
                         <h2>{project.name}</h2>
@@ -42,7 +42,7 @@ const ProjectContainer = styled(ContentContainer)`
     ${tw`text-inherit`}
   }
   & .links {
-    ${tw`mt-5 flex justify-center cursor-pointer gap-2 text-2xl`}
+    ${tw`mt-3 flex justify-center cursor-pointer gap-2 text-2xl`}
   }
 `;
 
