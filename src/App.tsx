@@ -1,5 +1,6 @@
 import GlobalStyleSheet from "./assets/css/GlobalStyleSheet"
 import Footer from "./components/Footer"
+import GithubStats from "./components/GithubStats"
 import SecondContainer from "./components/SecondContainer"
 import TopContainer from "./components/TopContainer"
 
@@ -9,6 +10,7 @@ function App() {
     <GlobalStyleSheet/>
     <TopContainer/>
     <SecondContainer/>
+    <GithubStats/>
     <Footer/>
     </>
   )
