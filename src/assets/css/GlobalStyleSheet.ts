@@ -15,4 +15,7 @@ body, * {
     ${tw`p-0 m-0`}
     -webkit-tap-highlight-color: transparent;
 }
+a {
+    ${tw`text-inherit`}
+  }
 `;

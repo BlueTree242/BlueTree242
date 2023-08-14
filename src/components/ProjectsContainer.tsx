@@ -38,9 +38,6 @@ export default function ProjectsContainer() {
 }
 
 const ProjectContainer = styled(ContentContainer)`
-  & a {
-    ${tw`text-inherit`}
-  }
   & .links {
     ${tw`mt-3 flex justify-center cursor-pointer gap-2 text-2xl`}
   }
