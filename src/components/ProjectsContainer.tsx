@@ -5,6 +5,7 @@ import { ReactNode, createRef, useEffect } from "react";
 import { faBook, faChartSimple, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faJenkins } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ContentContainer from "./ContentContainer";
 
 
 export default function ProjectsContainer() {
@@ -21,7 +22,7 @@ export default function ProjectsContainer() {
             <h2 css={tw`text-center`} ref={projectsRef}>My Projects:</h2>
             <div css={tw`lg:flex p-3 justify-between flex-wrap`}>
                 {projects.map((project) => (
-                    <ProjectContainer id={project.name}>
+                    <ProjectContainer id={project.name} key={project.name.toLocaleLowerCase()}>
                         <h2>{project.name}</h2>
                         <p>{project.description}</p>
                         {project.links && <div className="links">
@@ -36,16 +37,7 @@ export default function ProjectsContainer() {
     );
 }
 
-const ProjectContainer = styled.div`
-  ${tw`shadow-2xl rounded border-solid p-3 mb-3 lg:w-[30%] m-auto h-full`}
-
-  & h2 {
-    ${tw`text-center`}
-  }
-  & p {
-    ${tw`text-lg mt-3`}
-  }
-
+const ProjectContainer = styled(ContentContainer)`
   & a {
     ${tw`text-inherit`}
   }

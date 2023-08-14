@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
 body {
   font-family: 'Open Sans', sans-serif;
-  ${tw`dark:bg-neutral-950 dark:text-white`}
+  ${tw`dark:bg-neutral-900 dark:text-white`}
 }
 body, * {
     ${tw`p-0 m-0`}
