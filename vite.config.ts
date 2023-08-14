@@ -16,6 +16,11 @@ const plugins = [
       {
         src: 'extra/CNAME',
         dest: ''
+      },
+      {
+        src: 'index.html',
+        dest: '',
+        rename: "404.html"
       }
     ]
   })
