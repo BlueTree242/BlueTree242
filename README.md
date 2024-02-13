@@ -2,10 +2,9 @@
 
 ### Hi there 👋
 
-- 🔭 I’m currently working on Prebot, DiscordSRVUtils and AdvancedPlHide
-- 🌱 I’m currently learning TypeScript and C++
+- 🔭 I’m currently working on PreBot, DiscordSRVUtils and AdvancedPlHide
 - 🤔 I’m looking for help with Big Projects
-- 📫 How to reach me: Discord BlueTree242#6225
+- 📫 How to reach me: Discord @BlueTree242
 - 😄 Pronouns: he/him
 
 [![BlueTree242's github stats](https://github-readme-stats.vercel.app/api?username=BlueTree242&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
