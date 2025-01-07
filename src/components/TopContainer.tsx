@@ -12,8 +12,7 @@ export default function TopContainer() {
                     <p css={tw`mt-5 text-lg text-center lg:text-left`}>
                         Hello there! I am BlueTree242, I code programs as a hobby.
                         I mostly make Minecraft/Discord related stuff.<br/><br/>
-                        Some of my projects are open source and available on github! I know Java, JS, TS, React.JS, Node.js.
-                        I don't know python because i don't really care about it.<br/><br/>
+                        Some of my projects are open source and available on github! I know Java, JS, TS, React.JS, Node.js and also a little bit of python.<br/><br/>
                         In this website you will find out about my projects and my activity!
                     </p>
                 </div>
