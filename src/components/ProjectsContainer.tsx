@@ -66,6 +66,10 @@ const projects: Project[] = [
                 icon: faGithub
             },
             {
+                url: "https://ci.bluetree242.dev/job/DiscordSRVUtils",
+                icon: faJenkins
+            },
+            {
                 url: "https://wiki.discordsrvutils.xyz/",
                 icon: faBook
             },
@@ -111,7 +115,7 @@ const projects: Project[] = [
                 icon: faGithub
             },
             {
-                url: "https://ci.bluetree242.ml/job/PreBot",
+                url: "https://ci.bluetree242.dev/job/PreBot",
                 icon: faJenkins
             },
             {
