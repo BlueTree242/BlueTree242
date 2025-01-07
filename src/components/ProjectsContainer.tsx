@@ -96,12 +96,14 @@ const projects: Project[] = [
             }
         ]
     },
+    /**
     {
         name: "PreBot",
         description: <>
             PreBot is a discord bot made in java (in early development), It allows you to have the most custom bot ever!
             The bot provides a very powerful API for plugins to use, you can add infinite features to the bot, by adding plugins!
-            The bot makes it one bot, instead of multiple bots hosted on the same token!
+            The bot makes it one bot, instead of multiple bots hosted on the same token!<br/>
+            <center><b>Currently on private and development is halted.</b></center>
         </>,
         links: [
             {
@@ -115,6 +117,31 @@ const projects: Project[] = [
             {
                 url: "https://github.com/BlueTree242/PreBot/blob/master/MAKING_PLUGIN.md",
                 icon: faBook
+            }
+        ]
+    },
+    */
+    {
+        name: "ServerAssistantAI",
+        description: <>
+            ServerAssistantAI is a customizable AI Assistant plugin for spigot/paper servers.
+            <br /><br />
+            This plugin has features such as chat question detection,
+            Endless support for services such as OpenAI with an API and so much more.
+            Developed with CodeSolutions team.
+        </>,
+        links: [
+            {
+                url: "https://code-solutions.dev/ServerAssistantAI",
+                icon: faWindowRestore
+            },
+            {
+                url: "https://wiki.code-solutions.dev/serverassistantai/",
+                icon: faBook
+            },
+            {
+                url: "https://bstats.org/plugin/bukkit/ServerAssistantAI/21469",
+                icon: faChartSimple
             }
         ]
     },
